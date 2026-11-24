@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Golden Hug Bakes is open for orders. Request homemade cakes, cupcakes, cookies, dessert trays, cinnamon rolls, banana bread, and custom desserts.">
+  <meta name="theme-color" content="#fbf3e5">
+  <title>Golden Hug Bakes | Homemade cakes, cookies &amp; more</title>
+  <link rel="icon" href="images/heart.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="site.js"></script>
+</head>
+<body id="top">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="header wrap">
+    <a class="brand" href="#top">
+      <img src="images/heart.svg" width="37" height="37" alt="">
+      <span>Golden Hug <small>BAKES</small></span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#menu">The menu</a>
+      <a href="#gallery">Gallery</a>
+      <a class="button button-small" href="#order">Order request</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow announcement"><span aria-hidden="true"></span> We’re back and taking orders</p>
+        <h1 id="hero-title">Homemade<br> sweetness,<br> <em>wrapped in a hug.</em></h1>
+        <p class="hero-note">I’m back in the kitchen baking custom cakes, fresh cookies, and all your favorite treats. Tell me what you’re craving or what you’re celebrating!</p>
+        <div class="hero-actions">
+          <a class="button" href="#order">Request an order</a>
+          <a class="plain-link" href="#menu">Explore the menu</a>
+        </div>
+      </div>
+      <figure class="hero-photo">
+        <div class="arch">
+          <img src="images/sunflower-cake.webp" fetchpriority="high" alt="Homemade birthday cake with sunflowers and pale green piping" width="933" height="1200">
+        </div>
+        <figcaption>Sunflower birthday cake</figcaption>
+      </figure>
+    </section>
+
+    <section class="menu section" id="menu" aria-labelledby="menu-title">
+      <div class="wrap">
+        <div class="section-intro">
+          <p class="eyebrow">The menu</p>
+          <h2 id="menu-title">What’s in the oven?</h2>
+          <p>Something for birthdays, get-togethers, and just-because cravings.</p>
+        </div>
+        <ul class="menu-list">
+          <li><h3>Custom cakes</h3><p>Share your favorite flavors, colors, or party theme.</p></li>
+          <li><h3>Cupcakes</h3><p>Little treats for parties, gifts, or dessert tables.</p></li>
+          <li><h3>Homemade cookies</h3><p>From chocolate chunk to cookie butter and seasonal batches.</p></li>
+          <li><h3>Dessert trays</h3><p>A mix of sweets made for sharing.</p></li>
+          <li><h3>Fresh cinnamon rolls</h3><p>Swirls of cinnamon for brunch or a slow morning.</p></li>
+          <li><h3>Banana bread</h3><p>A homemade loaf to slice, share, or save for yourself.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="gallery section wrap" id="gallery" aria-labelledby="gallery-title">
+      <div class="section-intro">
+        <p class="eyebrow">From my kitchen</p>
+        <h2 id="gallery-title">A few past bakes</h2>
+      </div>
+      <div class="gallery-grid">
+        <figure><a href="images/chocolate-chunk-cookies.webp"><img src="images/chocolate-chunk-cookies.webp" loading="lazy" alt="Enlarge photo of chocolate chunk cookies"></a><figcaption>Chocolate chunk cookies</figcaption></figure>
+        <figure><a href="images/dessert-tray.webp"><img src="images/dessert-tray.webp" loading="lazy" alt="Enlarge photo of a dessert tray with strawberries, brownies, and cookies"></a><figcaption>Assorted dessert tray</figcaption></figure>
+        <figure><a href="images/raspberry-cake.webp"><img src="images/raspberry-cake.webp" loading="lazy" alt="Enlarge photo of a chocolate-frosted cake topped with raspberries"></a><figcaption>Chocolate raspberry cake</figcaption></figure>
+        <figure><a href="images/cookie-butter-cookies.webp"><img src="images/cookie-butter-cookies.webp" loading="lazy" alt="Enlarge photo of cookies with a cookie butter drizzle"></a><figcaption>Cookie butter cookies</figcaption></figure>
+        <figure><a href="images/chocolate-strawberry-cake.webp"><img src="images/chocolate-strawberry-cake.webp" loading="lazy" alt="Enlarge photo of a two-tone cake topped with strawberries and chocolate"></a><figcaption>Chocolate and strawberry cake</figcaption></figure>
+        <figure><a href="images/banana-bread.webp"><img src="images/banana-bread.webp" loading="lazy" alt="Enlarge photo of a slice of banana bread"></a><figcaption>Banana bread</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="order section" id="order" aria-labelledby="order-title">
+      <div class="wrap order-grid">
+        <div>
+          <p class="eyebrow">Custom orders &amp; pricing</p>
+          <h2 id="order-title">Let’s bake<br><em>something sweet.</em></h2>
+          <p>Tell me what you’d like, when you need it, and how many people you’re treating. I’ll follow up about pricing, availability, and the details.</p>
+          <p class="signoff">With love,<br><strong>Golden Hug Bakes</strong></p>
+        </div>
+        <div class="order-card" data-order-card>
+          <h3>Order request</h3>
+          <p>Have a flavor, color scheme, or theme in mind? Include it in your request.</p>
+          <div class="form-placeholder" data-form-placeholder>
+            <form class="inquiry-form" data-inquiry-form hidden>
+              <label>Your name <input name="name" autocomplete="name" maxlength="100" required></label>
+              <label>Date needed <input type="date" name="date"></label>
+              <label class="inquiry-details">What would you like?
+                <textarea name="details" rows="4" maxlength="1200" placeholder="What you’re ordering, quantity or servings, and any flavor or design ideas" required></textarea>
+              </label>
+              <div class="inquiry-details inquiry-actions">
+                <button class="button" type="submit">Open email draft</button>
+                <p>Review and send it in your email app.</p>
+              </div>
+            </form>
+          </div>
+          <p class="direct-email">Email me directly at <a data-inquiry-address href="mailto:goldenhugbakes@gmail.com">goldenhugbakes@gmail.com</a>.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer wrap">
+    <a class="brand" href="#top"><img src="images/heart.svg" width="37" height="37" alt=""><span>Golden Hug <small>BAKES</small></span></a>
+    <p>Homemade sweetness, wrapped in a hug.<br>© 2026 Golden Hug Bakes</p>
+  </footer>
+
+  <dialog class="photo-dialog" aria-labelledby="photo-caption">
+    <button type="button" class="close" aria-label="Close photo">×</button>
+    <img alt="">
+    <p id="photo-caption"></p>
+  </dialog>
+</body>
+</html>
